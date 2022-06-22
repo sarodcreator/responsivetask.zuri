@@ -1,0 +1,344 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+}
+header{
+    background-color: hsl(193, 100%, 96%);
+    background-position: center;
+    background-size: cover;
+    padding: 20px;background-image: url(images/);
+
+}
+.logo img{
+    width: 15%;
+}
+.logo button{
+    float: right;
+    padding: 10px 50px;
+    border-radius: 50px;
+    border: none;
+    font-size: 18px;
+    background-color: hsl(0, 0%, 100%);
+}
+.logo{
+    margin-bottom: 20px;
+}
+.left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 20px;
+}
+.left img{
+    width: 70%;
+    float: right;
+    margin: 50px;
+}
+.left h1{
+    font-weight: 600px;
+    text-align: left;
+    margin: 20px;
+    width: 100%;
+
+}
+.left p{
+    font-weight: 600px;
+    text-align: left;
+    margin: 20px;
+    font-size: 18px;
+    width: 100%;
+    line-height: 20px;
+}
+.left button{
+    padding: 10px 50px;
+    background-color: hsl(322, 100%, 66%);
+    border-radius: 50px;
+    border: none;
+    margin: 0 20px;
+    color: white;
+}
+.left button:hover{
+    background-color: hsla(322, 100%, 66%, 0.829);
+}
+main{
+    margin: 100px;
+}
+.grow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid hsla(209, 11%, 55%, 0.144);
+    border-radius: 10px;
+    padding-left: 50px;
+    
+}
+.grow p{
+    font-weight: 400px;
+    text-align: left;
+    font-size: 18px;
+    width: 100%;
+    line-height: 20px;
+    margin: 20px;
+    color: hsl(208, 11%, 55%);
+}
+.grow img{
+    width: 50%;
+    float: right;
+    margin: 50px;
+}
+.grow h3{
+    font-weight: 700px;
+    text-align: left;
+    margin: 20px;
+    width: 100%;
+    color: hsl(192, 100%, 9%);
+}
+
+.flow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid hsla(209, 11%, 55%, 0.144);
+    border-radius: 10px;
+    padding-right: 50px;
+    margin-top: 20px;
+        
+}
+.flow p{
+    font-weight: 400px;
+    text-align: left;
+    font-size: 18px;
+    width: 100%;
+    line-height: 20px;
+    margin-left: 20px;
+    color: hsl(208, 11%, 55%);
+}
+.flow img{
+    width: 50%;
+    float: left;
+    margin: 50px;
+}
+.flow h3{
+    font-weight: 700px;
+    text-align: left;
+    margin: 20px;
+    width: 100%;
+    color: hsl(192, 100%, 9%);
+    
+}
+.user{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid hsla(209, 11%, 55%, 0.144);
+    border-radius: 10px;
+    padding-left: 50px;
+    margin-top: 20px;
+    
+}
+.user p{
+    font-weight: 400px;
+    text-align: left;
+    font-size: 18px;
+    width: 100%;
+    line-height: 20px;
+    margin: 20px;
+    color: hsl(208, 11%, 55%);
+}
+.user img{
+    width: 50%;
+    float: right;
+    margin: 50px;
+}
+.user h3{
+    font-weight: 700px;
+    text-align: left;
+    margin: 20px;
+    width: 100%;
+    color: hsl(192, 100%, 9%);
+}
+.comm{
+    width: 50%;
+    margin: auto;
+    border: 1px solid hsla(209, 11%, 55%, 0.103);
+    border-radius: 10px;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background: white;
+    position: relative;
+}
+.comm button{
+    padding: 10px 20px;
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    margin: 20px 0px 20px 180px;
+    border-radius: 50px;
+    border: none;
+}
+.comm button:hover{
+    background-color: hsla(322, 100%, 66%, 0.829);
+}
+.comm h2{
+    margin-left: 100px;
+    font-weight: 700px;
+    color: hsl(192, 100%, 9%);
+}
+footer{
+    margin-top: -160px;
+    background-color: hsl(192, 100%, 9%);
+    padding: 100px;
+    font-weight: 400px;
+}
+
+.address{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#huddle{
+    margin-left: 100px;
+    color: white;
+    font-weight: 700px;
+}
+
+#logo{
+    margin-top: 100px;
+}
+#logo div{
+    display: block;
+   
+}
+#logo img{
+    width: 5%;
+    display: flex;
+}
+#logo p{
+    float: top;
+    text-align: left;
+    margin: -17px 20px 0;
+    font-size: 18px;
+    color: white;
+}
+#location{
+    margin-bottom: -60px;
+}
+#phone{
+    margin-bottom: -60px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    
+}
+ul li{
+    list-style: none;
+    line-height: 30px;
+    align-items: center;
+}
+#reach-out{
+    margin-top: 50px;
+}
+.icons ul{
+    display: flex;
+    flex-direction: row;
+    text-align: top;
+    margin-top: -80px;
+}
+.fa{
+    margin-left: 10px;
+    border-radius: 50px;
+    border: 1px solid white;
+    padding: 10px;
+}
+.fa-facebook{
+    padding: 10px 14px;
+    border-radius: 100px;
+}
+.copy{
+    color: white;
+    text-align: right;
+    font-size: 14px;
+
+}
+#copyright{
+    border: none;
+}
+@media (max-width: 336px){
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    body{
+        margin: 0%;
+        padding: 0%;
+        font-size: 12px;
+    }
+    .logo button{
+    float: right;
+    padding: 5px;
+    border-radius: 50px;
+    border: none;
+    font-size: 12px;
+    background-color: hsl(0, 0%, 100%);
+    }
+    .logo img{
+        width: 30%;
+    }
+    .left{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .left img{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .left h1{
+        font-weight: 600px;
+        text-align: center;
+        margin: 20px;
+        width: 100%;
+        
+    
+    }
+    .left p{
+        font-weight: 600px;
+        text-align: left;
+        margin: 20px;
+        font-size: 18px;
+        width: 100%;
+        line-height: 20px;
+    }
+    .left button{
+        padding: 5px 30px;
+        background-color: hsl(322, 100%, 66%);
+        border-radius: 50px;
+        border: none;
+        margin: 0 20px;
+        color: white;
+        width: 100%;
+    }
+    .grow img{
+        width: 100%;
+        margin: 50px;
+    }
+    .grow{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 1px solid hsla(209, 11%, 55%, 0.144);
+        border-radius: 10px;
+        padding: 20px;
+        
+    }
+}
